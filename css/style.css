@@ -126,6 +126,13 @@ img {
     60px 0 0 0 currentColor, 80px 0 0 0 currentColor;
 }
 
+/* Filtro responsividade mobile */
+@media (max-width: 739px) {
+    .filtro {
+		display: none;
+	}
+}
+
 /*Produtos*/
 
 .produtos h1 {
